@@ -48,7 +48,7 @@ class Unlayer extends Code
      * @param string $height E.g. "800px"
      * @return \IDF\NovaUnlayerField\Unlayer
      */
-    public function height(string $height): Unlayer
+    public function setHeight(string $height): Unlayer
     {
         return $this->withMeta(['height' => $height]);
     }
