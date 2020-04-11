@@ -48,7 +48,7 @@
 
         computed: {
             containerHeight: function () {
-                return this.field.height || defaultHeight;
+                return this.field.setHeight || defaultHeight;
             },
         },
 
